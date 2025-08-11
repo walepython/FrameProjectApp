@@ -1,7 +1,7 @@
 // src/page/ArtDetailPage.jsx
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { marketData } from '../data/marketdata'; // Import the shared data
+import { marketData } from '../data/marketData'; // Import the shared data
 import { useCart } from '../context/CartContext';
 
 export default function ArtDetailPage() {

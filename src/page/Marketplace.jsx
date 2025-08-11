@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { marketData } from '../data/marketdata';
+import { marketData } from "../data/marketData.js";
 import { motion, useInView } from 'framer-motion';
 import {FiShoppingCart } from 'react-icons/fi'
 
@@ -85,7 +85,8 @@ export default function Marketplace() {
                     </Link>
                     <button id='button'
                       onClick={() => addToCart(item)}
-                      className=" block w-full text-center bg-pink-500 text-white font-semibold py-3 rounded-md hover:bg-pink-600 transition-colors flex items-center pl-44 gap-5 lg:flex-row lg:pl-10"
+                      className="block w-full text-center bg-pink-500 text-white font-semibold py-3 rounded-md hover:bg-pink-600 transition-colors flex items-center pl-44 gap-5 lg:flex-row lg:pl-10"
+
                     >
                       <FiShoppingCart className='font-semibold text-lg'/>
                       Add to Cart
