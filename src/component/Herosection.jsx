@@ -3,6 +3,7 @@ import React from 'react';
 // Import icons from react-icons
 import { FaPhone, FaPlay } from 'react-icons/fa';
 import { Typewriter } from 'react-simple-typewriter';
+import bgImage from '/FB_IMG_1754597542450.jpg';
 
 // --- Sub-components adapted for a light background ---
 
@@ -69,9 +70,10 @@ const Stats = () => (
 
 // --- Main Hero Section Component ---
 export default function HeroSection() {
+ 
   return (
     // THEME CHANGE: The main background is now a light gradient.
-    <div className="bg-gradient-to-br from-white to-gray-100 font-sans bg-[url('https://i.pinimg.com/736x/ef/cb/1f/efcb1fa6051002947885dd23bfa4dc89.jpg')] bg-cover bg-center ">
+    <div className="bg-gradient-to-br from-white to-gray-100 font-sans bg-cover bg-center " style={{ backgroundImage: `url(${bgImage})` }}>
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 md:pt-12">
         {/* Decorative background gradients are made more visible */}
         <div className="absolute inset-0 bg-gradient-to-br from-black/40 via-black/50 to-transparent z-0"></div>
