@@ -71,7 +71,7 @@ const Stats = () => (
 export default function HeroSection() {
   return (
     // THEME CHANGE: The main background is now a light gradient.
-    <div className="bg-gradient-to-br from-white to-gray-100 font-sans bg-[url('/art/FB_IMG_1754597542450.jpg')] bg-cover bg-center ">
+    <div className="bg-gradient-to-br from-white to-gray-100 font-sans bg-[url('./FB_IMG_1754597542450.jpg')] bg-cover bg-center ">
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 md:pt-12">
         {/* Decorative background gradients are made more visible */}
         <div className="absolute inset-0 bg-gradient-to-br from-black/40 via-black/50 to-transparent z-0"></div>
